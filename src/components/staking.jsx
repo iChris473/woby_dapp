@@ -203,7 +203,6 @@ function Staking() {
                     color: "#ffffff",
                     textAlign: "center",
                     letterSpacing: "5px",
-                    textTransform: "uppercase",
                     borderRadius: "20px",
                   }}
                 >
@@ -490,7 +489,6 @@ function Staking() {
                     color: "#ffffff",
                     textAlign: "center",
                     letterSpacing: "5px",
-                    textTransform: "uppercase",
                     borderRadius: "20px",
                   }}
                 >
@@ -692,7 +690,6 @@ function Staking() {
                 color: "#ffffff",
                 textAlign: "center",
                 letterSpacing: "5px",
-                textTransform: "uppercase",
                 borderRadius: "20px",
                 position: "relative",
                 zIndex: 1,
