@@ -74,7 +74,7 @@ export default function Header() {
                 borderRadius="100px"
                 fontSize="18px"
                 color="#ffffff"
-                fontFamily="Nunito"
+                fontFamily="Regular"
                 display="flex"
                 justifyContent="center"
                 alignItems="center"

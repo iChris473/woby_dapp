@@ -197,12 +197,10 @@ function Staking() {
                   bgcolor="#02a701"
                   border="7px solid #193158"
                   style={{
-                    fontSize: matches ? "20px" : "30px",
+                    fontSize: matches ? "30px" : "40px",
                     fontFamily: "Regular",
-                    fontWeight: "900",
                     color: "#ffffff",
                     textAlign: "center",
-                    letterSpacing: "5px",
                     borderRadius: "20px",
                   }}
                 >
@@ -266,7 +264,6 @@ function Staking() {
                       cursor: "pointer",
                       color: "#ffffff",
                       textAlign: "center",
-                      letterSpacing: "5px",
                       textTransform: "uppercase",
                     }}
                     onClick={() => setamount(balance)}
@@ -315,14 +312,13 @@ function Staking() {
                       style={{
                         background: "#02a701",
                         border: "2px solid #ffffff",
-                        fontSize: matches ? "10px" : "15px",
+                        fontSize: matches ? "15px" : "20px",
                         borderRadius: "50px",
                         width: matches ? "27%" : "30%",
                         height: matches ? "25px" : "40px",
                         color: "#ffffff",
                         textTransform: "capitalize",
-                        fontWeight: "500",
-                        fontFamily: "Nunito",
+                        fontFamily: "Regular",
                         marginRight: matchesPlan ? "10px" : "0px",
                       }}
                       onClick={() => setplanIndex(0)}
@@ -333,14 +329,13 @@ function Staking() {
                       style={{
                         background: "#02a701",
                         border: "2px solid #ffffff",
-                        fontSize: matches ? "10px" : "15px",
+                        fontSize: matches ? "15px" : "20px",
                         borderRadius: "50px",
                         width: matches ? "27%" : "30%",
                         height: matches ? "25px" : "40px",
                         color: "#ffffff",
                         textTransform: "capitalize",
-                        fontWeight: "500",
-                        fontFamily: "Nunito",
+                        fontFamily: "Regular",
                         marginRight: matchesPlan ? "10px" : "0px",
                       }}
                       onClick={() => setplanIndex(1)}
@@ -351,14 +346,13 @@ function Staking() {
                       style={{
                         background: "#02a701",
                         border: "2px solid #ffffff",
-                        fontSize: matches ? "10px" : "15px",
+                        fontSize: matches ? "15px" : "20px",
                         borderRadius: "50px",
                         width: matches ? "27%" : "30%",
                         height: matches ? "25px" : "40px",
                         color: "#ffffff",
                         textTransform: "capitalize",
-                        fontWeight: "500",
-                        fontFamily: "Nunito",
+                        fontFamily: "Regular",
                         marginRight: matchesPlan ? "10px" : "0px",
                       }}
                       onClick={() => setplanIndex(2)}
@@ -415,7 +409,6 @@ function Staking() {
                       cursor: "pointer",
                       color: "#ffffff",
                       textAlign: "center",
-                      letterSpacing: "5px",
                       textTransform: "uppercase",
                     }}
                   >
@@ -464,9 +457,8 @@ function Staking() {
                       justifyContent="center"
                       alignItems="center"
                       color="#ffffff"
-                      fontWeight="600"
                       fontSize="18px"
-                      fontFamily="Nunito"
+                      fontFamily="Regular"
                       onClick={() => connect()}
                     >
                       Connect
@@ -483,12 +475,10 @@ function Staking() {
                   bgcolor="#02a701"
                   border="7px solid #193158"
                   style={{
-                    fontSize: matches ? "20px" : "30px",
+                    fontSize: matches ? "30px" : "40px",
                     fontFamily: "Regular",
-                    fontWeight: "900",
                     color: "#ffffff",
                     textAlign: "center",
-                    letterSpacing: "5px",
                     borderRadius: "20px",
                   }}
                 >
@@ -684,12 +674,10 @@ function Staking() {
               width={matches ? "300px" : "500px"}
               border="7px solid #193158"
               style={{
-                fontSize: matches ? "20px" : "30px",
+                fontSize: matches ? "30px" : "40px",
                 fontFamily: "Regular",
-                fontWeight: "900",
                 color: "#ffffff",
                 textAlign: "center",
-                letterSpacing: "5px",
                 borderRadius: "20px",
                 position: "relative",
                 zIndex: 1,
